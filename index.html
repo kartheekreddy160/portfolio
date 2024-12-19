@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="nav-bar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi! Myself</h3>
+            <h1>Kartheek</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Skilled in HTML, CSS, JavaScript, and React, creating seamless and responsive user interfaces. I thrive on solving challenges and bringing ideas to life through code.</p>
+
+            <div class="social-media">
+                <a href="#facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#x"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img id="myimg" src="./assets/img.jpg" alt="my img">       
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/img.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"> 
+                ABOUT <span>Me</span> </h2>
+                <h3>Frontend Developer</h3>
+                <p> Hello! I’m a skilled Front-End Developer with a keen eye for design and a dedication to crafting seamless user experiences. I have hands-on experience building interactive web applications and am proficient in modern web technologies, including React.js.</p>
+                <p>
+                    I thrive in collaborative environments and enjoy working on challenging projects that push me to learn and grow. When I'm not coding, I explore new technologies and keep up with industry trends.
+                </p>
+                <a href="#" class="btn">Read more</a>
+          
+        </div>
+
+    </section>
+
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h2>Single Page Application Development</h2>
+                <p>
+                    Building fast, scalable, and dynamic single-page applications using React.js.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Responsive Web Design</h2>
+                <p>
+                    I create mobile-friendly websites that adapt seamlessly to all screen sizes.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-brands fa-uikit"></i>
+                <h2>Interactive UI/UX Development</h2>
+                <p>
+                    Crafting intuitive interfaces with a focus on user experience and functionality.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./assets/Portfolio-Desk.jpg" alt="img1">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>A personal portfolio showcasing skills and projects. Features responsive design and interactive elements.</p>                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/Banking-System-project.jpg" alt="img1">
+                <div class="portfolio-layer">
+                    <h4>E-Banking</h4>
+                    <p>Simulates online banking features with secure login, account management, and real-time updates.</p>                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/worldwide-e-commerce-concept_23-2147657845.avif" alt="img1">
+                <div class="portfolio-layer">
+                    <h4>E-commerce</h4>
+                    <p>A dynamic platform for browsing and purchasing products, featuring cart management and a responsive UI.</p>                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./assets/premium_photo-1661960487542-352d8c5a69f7.jpg" alt="img1">
+                <div class="portfolio-layer">
+                    <h4>Bike Service Booking</h4>
+                    <p>An application for scheduling bike service appointments with secure login and form validation.</p>                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email-Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
+            </textarea>
+
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 by Kartheek. All rights reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+           
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
